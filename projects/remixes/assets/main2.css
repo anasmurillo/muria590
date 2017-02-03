@@ -16,16 +16,21 @@ p{
 	color:white; ;
 	margin-left: 30px;
   margin-right: 30px;
-}
+  font-size: 30; }
+
 h1,h6{
 	font-family: helvetica;
 	margin-left: 58px;
   margin-right: 58px;
   text-align: center;	}
 
-h1{font-size: .9cm;
+h1{font-size: 80;
 color: black;
 text-align: center;}
+
+h6{
+  font-size: 20;
+}
 
 a {font-family: helvetica;}
 
