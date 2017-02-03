@@ -1,17 +1,4 @@
 
- html, body {
-width: 100%;
-height: 100%;
-margin: 0;
-}
-
-#wrap-all {
-width: 100%;
-height: 100%;
-background: linear-gradient(red, orange);
-position: fixed;
-overflow: auto;
-}
 
 body {
     margin-left: 50px;
@@ -52,36 +39,20 @@ a:link {
 a:visited {
     color: #620c31}
 
-p:hover {
-
-  }
-
-
-
-p:h
-
-
-
 .caja, .cajas
-{ padding: 30px;
-  text-align: left;}
-
-
-
+{ margin-left: 50px;
+  padding-left: 50px;
+    text-align: left;}
 
 .creds{font-size: .5cm;
 transform: none;
 padding-bottom: 80px;
 text-align: left;}
 
-
-
-
-
 .orange, .snake, .spider, .scorpion, .crows{
   position: absolute;
   padding-right: 30;
-     left: 800px;}
+     left: 970px;}
 
      .crows:hover {
          opacity: 2.0; }
