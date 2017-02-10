@@ -37,8 +37,6 @@ font-family: helvetica;
 text-align: center;}
 
 ul{ list-style: none;
-
-
 }
 
 .caja
@@ -46,9 +44,10 @@ ul{ list-style: none;
 
 
 .cajas
-{ padding: 30px;
-  text-align: center;
-margin-right: 20px;}
+{ display: table;
+  margin-right: auto;
+  margin-left: auto;
+}
 
 
 
