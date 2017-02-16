@@ -78,16 +78,16 @@ body {
 
 .vase-top {
   border-top: 4px solid black;
+  border-right: 4px solid black;
+  border-left: 4px solid black;
   position: absolute;
   width: 50px;
-  height: 70px;
-  bottom: 110px;
-  left: 40px;
+  height: 39px;
+  bottom: 142px;
+  left: 35px;
   background: white;
   border-top-right-radius: 0px;
   border-top-left-radius: 0px;
-  border-bottom-left-radius: 30px;
-  border-bottom-right-radius: 30px;
 }
 
 .stem2 {

@@ -19,7 +19,7 @@ a{font-family: arial;
   color: black;}
 
 .link{
- font-size: 30;}
+ font-size: .5cm;}
 
 h1{font-size: 80;}
 
@@ -61,3 +61,4 @@ ul li ul li {
 
  ul li ul li a {display:block !important;}
  ul li ul li:hover {background: white;}
+
