@@ -1,4 +1,5 @@
-.dos{ display: flex; }
+.row{ display: flex; }
+
 html{
   box-sizing: border-box;
 }
@@ -72,7 +73,7 @@ header{
   border: 1px solid white;
 }
 
-.dos{
+.row{
   max-width: 1000px;
   height: 50%;
 

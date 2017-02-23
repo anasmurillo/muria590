@@ -1,3 +1,5 @@
+.row
+{ display: flex; }
 
 html{
   box-sizing: border-box;
@@ -85,7 +87,7 @@ header{
   padding: 8px;
 }
 
-.dos{
+.row{
   max-width: 1000px;
   height: 100%;
   background: lightblue;
