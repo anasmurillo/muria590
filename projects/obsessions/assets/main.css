@@ -66,54 +66,66 @@ header{
   padding: 0px;
 }
 
+.nav{
+   background: white;
+   float: left;
+  border: 1px solid white;
+  padding: 0px;
+  height: 30%;
+  width: 25%;
+
+}
+
 .column{
   background: lightblue;
   max-width: 1000px;
   padding: 20px;
   height: 50%;
   border: 1px solid white;
+  padding: 8px;
 }
 
 .dos{
   max-width: 1000px;
-  height: 50%;
+  height: 100%;
+  background: lightblue;
 
 }
 
 .columnuno{
   background: white;
   float: left;
-  padding: 20px;
   height: 100%;
  width: 70.00%;
  border: 1px solid white;
+ padding: 8px;
 }
 
 .columndos{
   background: white;
   float: left;
-  padding: 20px;
   height: 100%;
   width: 30.00%;
   border: 1px solid white;
+  padding: 8px;
 }
 
 .column-tres-uno{
-   background: lightblue;
+   background: white;
    float: left;
-   padding: 20px;
    height: 100%;
   width: 50.00%;
   border: 1px solid white;
+  padding: 8px;
 }
 
 .column-tres-dos{
-   background: lightblue;
+   background: white;
    float: left;
-   padding: 20px;
    height: 100%;
   width: 25.00%;
   border: 1px solid white;
+  padding: 8px;
 }
 
 footer{
@@ -128,4 +140,23 @@ footer{
   max-width: 1000px;
   margin-left: auto;
   margin-right: auto;
+  height: 50%;
+  width: 100%;
 }
+
+.dos .item img {
+ display: block; 
+width: 100%;
+height: auto !important;
+    }
+
+img { 
+height: 280px;
+object-fit: contain;
+border: 0;
+max-width: 100%;}
+}
+
+*, *:before, *:after { 
+box-sizing: border-box;
+    }
