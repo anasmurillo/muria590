@@ -1,0 +1,127 @@
+.row{ display: flex;
+margin-bottom: 100px;}
+
+html{
+box-sizing: border-box;
+}
+*, *:before, *:after{
+box-sizing: inherit;
+}
+
+
+body {
+margin-left: 10px;
+padding-top: 20px;
+margin-right: 10px;
+background: rgb(217, 217, 217);
+}
+
+}head{
+margin-left: 50px;
+margin-right: 50px;
+}
+
+
+p{
+margin-left: 30px;
+margin-right: 30px;
+font-size: 30;
+}
+
+h1{
+font-size: 35;
+color: black;
+line-height: 75%;
+text-align: center;
+font-family: avenir;
+}
+
+h6{
+font-size: 20;
+color: black;
+text-align: left;
+font-family: avenir;
+}
+
+
+a {font-family: avenir;}
+
+a:link {
+color: #736f71;
+text-decoration: none;
+}
+
+a:visited {
+color: #620c31}
+
+a:hover{
+  color: hotpink;
+}
+
+header{
+  height: 13%;
+max-width: 1000px;
+box-sizing: border-box;
+padding-left: 10px;
+}
+
+.column{
+max-width: 1000px;
+padding: 10px;
+height: 50%;
+border: 1px solid white;
+}
+
+.row{
+max-width: 100%;
+height: auto;
+}
+
+.un_cuadro{
+float: left;
+height: auto;
+width: 100.00%;
+display: inline-block;
+
+}
+
+
+.collections{
+float: left;
+height: 100%;
+width: 20.00%;
+box-sizing: border-box;
+z-index: 1;
+}
+
+#footer{
+max-width: 1000px;
+padding: 0px;
+}
+
+.container {
+max-width: 90%;
+margin-left: auto;
+margin-right: auto;
+}
+
+img{
+width: 33%;
+height: auto;
+float: left;
+opacity: 0.5;
+}
+
+img:hover{
+  opacity: 1;
+}
+
+.foot{
+  padding-left: 75px;
+
+}
+
+@media (min-width: 786px) {
+ h1 {font-size: 80px;}
+
+}
