@@ -1,5 +1,5 @@
 .row{ display: flex;
-margin-bottom: 100px;}
+}
 
 html{
 box-sizing: border-box;
@@ -11,7 +11,6 @@ box-sizing: inherit;
 
 body {
 margin-left: 10px;
-padding-top: 20px;
 margin-right: 10px;
 background: rgb(217, 217, 217);
 }
@@ -82,9 +81,9 @@ float: left;
 height: auto;
 width: 100.00%;
 display: inline-block;
+margin-top: 0px;
 
 }
-
 
 .collections{
 float: left;
@@ -117,11 +116,15 @@ img:hover{
 }
 
 .foot{
-  padding-left: 75px;
-
+  margin-left: 10px;
 }
 
 @media (min-width: 786px) {
  h1 {font-size: 80px;}
-
 }
+
+a:link {
+color: #736f71;
+text-decoration: none;
+}
+
