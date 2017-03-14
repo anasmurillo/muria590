@@ -1,0 +1,63 @@
+html{
+box-sizing: border-box;
+}
+
+*, *:before, *:after{
+box-sizing: inherit;
+}
+
+body {
+margin-left: 0px;
+padding: 0px;
+background: rgb(217, 217, 217);
+}
+
+h1{
+font-size: 35px;
+color: black;
+line-height: 85%;
+font-family: avenir;
+}
+
+h6{
+font-size: 20px;
+color: black;
+text-align: left;
+font-family: helvetica;
+}
+
+a {font-family: avenir;}
+
+a:link {
+color: #736f71;
+text-decoration: none;
+}
+
+a:visited {
+color: #620c31}
+
+a:hover{
+  color: hotpink;
+}
+
+
+.row{
+  display: flex;
+margin-bottom: 100px;
+max-width: 100%;
+height: 110%;
+}
+
+::-webkit-scrollbar {
+    display: none; }
+
+.container {
+max-width: 90%;
+max-height: auto;
+margin-left: auto;
+margin-right: auto;
+}
+
+img:hover{
+  opacity: 1;
+}
