@@ -1,11 +1,12 @@
 h1{
   text-align: left;
+  line-height: 95%;
 }
 .row{
   display: flex;
-  margin-bottom: 100px;
+  margin: 0px;
   max-width: 100%;
-  height: 110%;
+  height: 100%;
 }
 
 .collections{
@@ -13,6 +14,7 @@ h1{
   height: 80%;
   width: 15.00%;
   box-sizing: border-box;
+ padding-top: 30px;
   z-index: 1;
 }
 
@@ -21,7 +23,7 @@ h1{
   height: 110%;
   width: 30.00%;
   box-sizing: border-box;
-  margin-top: -28px;
+  margin-top: 0px;
   overflow: scroll;
 }
 
@@ -31,4 +33,12 @@ h1{
 img{
   width: 99%;
   opacity: 0.5;
+}
+
+@media screen and (max-width: 500px) {
+
+a, h1{
+font-size: 25px;
+line-height: 85%;
+}
 }
