@@ -1,52 +1,3 @@
-console.log('hello world')
-
-var SpringBreak = [
-'skiing while there was a storm',
-'eating pizza',
-'hanging out with my family'
-];
-
-for ( var i = 0; i < SpringBreak.length; i++ ) {
-  console.log( SpringBreak[i] + ' was fun ' );
-}
-
-var groupOne = ['Ana', 'Gaurika', 'Moon'];
-var groupTwo = ['Victoria', 'Liz', 'Jissaura'];
-var groupThree = ['Kyle', 'Carol', 'Fish'];
-
-var allStudentsHere=[
-  'Carol Chong',
-  'Gaurika Milan Dalal',
-  'Vitoria Feitosa Di Iulio',
-  'Nafisa Afrin Iqbal',
-  'Moonnyung Jo',
-  'Ana Sofia Murillo',
-  'Jissaura Taveras Hernandez',
-  'Elizabeth Tsai',
-  'Kyle Yu',
-];
-
-var allStudentsHere = false;
-
-var studentsMissing =['Gyuri Nam'];
-
-var studentsMissing = true;
-
-var arrayOfArrays =[
-groupOne,
-groupTwo,
-groupThree];
-
-for ( var index1 = 0; i < arrayOfArrays.length; i++ ) {
-  console.log( 'this group is number ' + (i + 1 ));
-  console.log( 'The students in this group are');
-
-
-  for (var index2 = 0; index2.length <arrayOfArrays[index1]; index2++){
-      console.log(arrayOfArrays[index1][index2]);
-  }
-  }
-
 var stringName = ['ANA SOFIA'] //string name
   console.log( stringName );
 
@@ -74,15 +25,19 @@ for ( var i = 0; i < arrayLetters.length; i++ ) {
   console.log( arrayLetters[0] + arrayLetters[2] );
 }
 
-var word =['supercalifragilisticexpialidocious']
+//var word =['supercalifragilisticexpialidocious']
+  //for (var i = 0; i < word.length; i++) {
+    //   total += word[i].length();}
 
-for ( var i = 0; i < word.length(); i++ ) {
-  console.log( word.length() );
-}
+//Log the result of this expression: the length of characters in your first name is equal to the length of characters in your last name.
 
 
-//missing 3 and 4
 
 var allStudentsHere = true;
 
 
+for ( var i = 0; i < arrayLetters.length; i++ ) {
+  console.log( arrayLetters[i]);
+}
+
+//Create a conditional statement that checks to see if the current time is between 7pm and 9:40pm.
