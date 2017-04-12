@@ -25,14 +25,6 @@ for ( var i = 0; i < arrayLetters.length; i++ ) {
   console.log( arrayLetters[0] + arrayLetters[2] );
 }
 
-//var word =['supercalifragilisticexpialidocious']
-  //for (var i = 0; i < word.length; i++) {
-    //   total += word[i].length();}
-
-//Log the result of this expression: the length of characters in your first name is equal to the length of characters in your last name.
-
-
-
 var allStudentsHere = true;
 
 
@@ -40,4 +32,39 @@ for ( var i = 0; i < arrayLetters.length; i++ ) {
   console.log( arrayLetters[i]);
 }
 
-//Create a conditional statement that checks to see if the current time is between 7pm and 9:40pm.
+//Create a conditional statement that checks to see
+//if the current time is between 7pm and 9:40pm.
+
+var superword = ['supercalifragilisticexpialidocious'.length]
+console.log(superword);
+
+
+var expression = [ 'ana'.length = 'murillo'.length]
+console.log (expression);
+
+for ( var i = 0; i < arrayLetters.length; i++ ) {
+  console.log( arrayLetters[i]);
+}
+
+var date = new Date();
+
+document.getElementById = date.getDay();
+console.log( new Date);
+
+//?8
+
+
+var Array1= ['tostadas', 'cookies', 'funghi porcini']
+var Array2 =['dog', 'fish', 'bear']
+var Array3 = ['home', 'NYC', 'lugano']
+var Array4 = ['pikachu', 'the pink one', 'the fire bird']
+
+var ArrayOfArrays = [Array1, Array2, Array3, Array4]
+console.log(ArrayOfArrays);
+
+
+for ( var i = 0; i < ArrayOfArrays.length; i++ ) {
+  console.log( ArrayOfArrays[i]);
+}
+
+
