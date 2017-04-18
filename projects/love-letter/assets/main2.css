@@ -16,17 +16,31 @@ font-size: 22px;
 background-color: ghostwhite;
 }
 
+}head{
+margin-left: 50px;
+margin-right: 50px;
+}
 
 
 p{
-  margin: 0px;
-  font-size: 30;
+margin: 0px;
+font-size: 30;
+color: black;
+text-align: left;
+font-family: helvetica;
+margin-left: 20px;
+margin-right: 20px;
+}
+
+h6{
+  font-size: 30px;
   color: black;
-  text-align: left;
+  text-align: center;
   font-family: helvetica;
-  margin-left: 20px;
-  margin-right: 20px;
-  }
+  margin-left: 58px;
+  margin-right: 58px;
+  color: black;
+}
 
 h1{
 font-size: 60px;
@@ -35,20 +49,10 @@ text-align: center;
 font-family: helvetica;
 margin-left: 58px;
 margin-right: 58px;
-}
-
-h6{
-font-size: 30px;
 color: black;
-text-align: left;
-font-family: helvetica;
-margin-left: 20px;
-margin-right: 20px;
 }
 
-
-a {
-font-family: helvetica;
+a {font-family: helvetica;
 text-align: right;
 text-decoration: none;
 display: block;
@@ -66,6 +70,7 @@ a:hover{
   color: cadetblue;
 }
 
+
 header{
   max-width: 1200px;
   margin: 3;
@@ -79,14 +84,14 @@ header{
 }
 
 .row{
-  max-width: 1200px;
+  max-width: 50%;
   height: 50%;
 
 }
 
 footer{
   max-width: 1200px;
-  margin: 3;
+  margin: 0;
   padding: 0px;
 }
 
@@ -96,7 +101,6 @@ footer{
   margin-left: auto;
   margin-right: auto;
 }
-
 
 #circle1, #circle2, #circle3 {
   width: 250px;
@@ -109,24 +113,38 @@ footer{
   margin: 20px;
 }
 
-#circle1:hover{
-    opacity: .5;
-}
-#circle2:hover{
-    opacity: .5;
-}
-#circle3:hover{
-    opacity: .5;
-}
 
 #circle1{
-  background-color: #dbb31a;
+  background-image: url("IMG3.jpg");
 }
 
 #circle2{
-  background-color: #aff65f;
+  background-image: url("IMG1.jpg");
 }
 
 #circle3{
-  background-color: #ffc6d9;
+  background-image: url("IMG2.jpg");
+}
+
+
+
+@media (min-width: 786px) {
+  #circle1, #circle2, #circle3 {
+    width: 400px;
+    height: 400px;
+    float: left;
+    background: aliceblue;
+    -moz-border-radius: 150px;
+    border-radius: 200px;
+    margin: 20px;}
+
+  #circle1{
+    background-image: url("IMG3.jpg");
+  }
+  #circle2{
+    background-image: url("IMG1.jpg");
+  }
+  #circle3{
+    background-image: url("IMG2.jpg");
+  }
 }
