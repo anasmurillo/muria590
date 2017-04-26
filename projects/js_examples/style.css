@@ -50,10 +50,9 @@ ul a {
   text-decoration: none;
   color: hotpink;
   font-weight: bold;
-  text-transform: uppercase;
   padding: 0px 4px;
   background-color: white;
-  border: solid hotpink 2px;
+  border: solid hotpink 6px;
   padding: 30px;
 }
 
@@ -64,11 +63,10 @@ p {
 
 h3{
   font-family: helvetica;
-  font-weight: normal;
+  font-weight: bold;
   font-size: 25px;
   text-align: center;
   color: black;
-  border: solid black 2px;
   float: right;
   position: relative;
   left: -43%; /* or right 50% */
@@ -81,7 +79,7 @@ h3{
 }
 
 a:hover{
-  background-color: #6A37B7;
+  background-color: orange;
 }
 
 @media screen and (max-width: 743px) {
