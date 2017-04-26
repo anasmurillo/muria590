@@ -2,11 +2,12 @@ body{
 margin: 0px;
 padding: 40px;
 background-image:  url("anaa.png");
+background-repeat: no-repeat;
 
 }
 
 h1{
-font-family: 'Amatic SC', cursive;
+  font-family: 'Roboto', sans-serif;
 font-size: 35px;
 font-weight: normal;
 margin: 0px;
@@ -15,9 +16,9 @@ padding: 0px
 }
 
 h2{
-  font-family: 'Cabin Sketch', cursive;
+  font-family: 'Roboto', sans-serif;
 font-size: 40px;
-font-weight: normal;
+font-weight: bold;
 margin: 0px;
 color: #171717;
 padding: 0px
@@ -79,7 +80,7 @@ background-color: #920F2F;
 
 @media screen and (max-width: 743px) {
   h1{
-    font-family: 'Amatic SC', cursive;
+    font-family: 'Roboto', sans-serif;
   font-size: 30px;
   font-weight: normal;
   margin: 0px;
@@ -87,9 +88,9 @@ background-color: #920F2F;
   }
 
   h2{
-    font-family: 'Cabin Sketch', cursive;
+    font-family: 'Roboto', sans-serif;
   font-size: 30px;
-  font-weight: normal;
+  font-weight: bold;
   margin: 0px;
   color: #171717;
   padding: 0px

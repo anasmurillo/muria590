@@ -1,3 +1,5 @@
 $(function() {
-  // Your interactions go here
+    $(".button").click(function(){
+        $("li").toggle();
+    });
 });

@@ -1,0 +1,100 @@
+.float_center {
+  float: right;
+  padding-top: 100px;
+  position: relative;
+  left: -34%; /* or right 50% */
+  text-align: left;
+}
+.float_center > .child {
+  position: relative;
+  left: 50%;
+}
+
+/* style */
+body {
+  height:100%;
+  width:100%;
+  font-family: helvetica;
+}
+
+.clear {
+  clear:both;
+}
+
+.but {
+  text-align: center;
+  border: solid black 2px;
+}
+
+#container {
+  margin: 0px auto 0 auto;;
+  padding: 0px;
+  border-radius: 10px;
+}
+ul {
+  list-style-type: none;
+  margin:0;
+  padding:10px 0;
+}
+
+ul li {
+  float: left;
+  list-style-type: none;
+  margin:6px;
+}
+
+ul a {
+  display: block;
+  height: 26px;
+  line-height: 26px;
+  text-decoration: none;
+  color: hotpink;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 0px 4px;
+  background-color: white;
+  border: solid hotpink 2px;
+  padding: 30px;
+}
+
+p {
+  margin: 0;
+}
+
+
+h3{
+  font-family: helvetica;
+  font-weight: normal;
+  font-size: 25px;
+  text-align: center;
+  color: black;
+  border: solid black 2px;
+  float: right;
+  position: relative;
+  left: -43%; /* or right 50% */
+  text-align: left;
+  background-color: white;
+  padding-left:20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+a:hover{
+  background-color: #6A37B7;
+}
+
+@media screen and (max-width: 743px) {
+
+
+  .float_center {
+    float: right;
+    padding-top: 0px;
+    position: relative;
+    left: -50%; /* or right 50% */
+    text-align: left;
+}
+
+h3{
+  left: -20%;
+}
