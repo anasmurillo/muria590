@@ -1,0 +1,87 @@
+.uno{
+  background-color: mediumturquoise;
+  margin-top: 110px;
+}
+
+.dos{
+  background-color: transparent;
+  margin: 0px;
+  padding: 0px;
+}
+
+.tres{
+  background-color: mediumturquoise;
+}
+
+
+h1{
+  margin: 0px;
+  margin-top: 8px;
+  font-size: 100px;
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
+}
+
+h2{
+  margin: 3px;
+  font-size: 150px;
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
+  color: white
+}
+
+body{
+  margin: 0px;
+  padding: 0px;
+  background-color: deeppink;
+}
+
+@media (max-width: 1260px) {
+h1{
+  font-size: 60px;
+}
+
+h2{
+margin: 3px;
+font-size: 100px;}
+
+body{
+background-color: palevioletred;}
+
+.uno{
+margin-top: 210px;}
+
+}
+
+
+@media (max-width: 880px) {
+h1{font-size: 50px;
+}
+
+h2{
+font-size: 100px;}
+
+body{
+  background-color: darksalmon;}
+
+.uno{
+margin-top: 200px;}
+}
+
+
+
+@media (max-width: 700px) {
+h1{font-size: 30px;}
+
+  h2{font-size: 60px;}
+
+body{background-color: darkseagreen;}
+
+  .uno{
+    background-color: mediumturquoise;
+    margin-top: 260px;}
+
+}
+
+
+
