@@ -1,0 +1,167 @@
+.uno{
+background-color: transparent;
+position: absolute;
+left: 200px;
+top: 0px;
+}
+
+.unoi{
+  background-color: transparent;
+  position: absolute;
+  left: 410px;
+  top: 0px;
+}
+
+.uno:hover{
+  left: 500px;
+}
+
+.uno{
+  transition: width 2s, height 2s, transform 2s;
+  transition: 2s;
+ transition-timing-function: ease-in;
+}
+
+.unoi:hover{
+  left: 700px;
+}
+
+.unoi{
+    transition: width 2s, height 2s, transform 2s;
+    transition: 2s;
+   transition-timing-function: ease-in;
+  }
+
+.dos{
+  position: absolute;
+background-color: transparent;
+margin: 0px;
+padding: 0px;
+top: 0px;
+left: 10px;
+}
+
+.leg1{
+  position: absolute;
+width: 500px;
+margin-top: 0px;
+}
+
+.leg2{
+  position: absolute;
+width: 500px;
+margin-top: 0px;
+}
+
+.hola{
+align-content: center;
+}
+
+.pie{
+  height: 100vh;
+  width: 100vw;
+  margin: 0px;
+}
+
+.bottom{
+background-color: transparent;
+position: absolute;
+bottom: 0px;
+left: 31%;
+}
+
+.tres{
+background-color: mediumturquoise;
+left: 50%;
+top: 50%;
+}
+
+.izq{
+position: absolute;
+left: 3px;
+bottom: 3px;
+}
+
+.der{
+  position: absolute;
+  right: 3px;
+  bottom: 3px;
+}
+
+h1{
+margin: 0px;
+font-size: 120px;
+font-family: 'Oswald', sans-serif;
+text-align: center;
+color: white;
+display: inline-block;
+text-decoration-style: none;
+}
+
+h2{
+margin: 0px;
+font-size: 100px;
+font-family: 'Oswald', sans-serif;
+text-align: center;
+color: white;
+display: inline-block;
+text-decoration-style: none;
+}
+
+a:link{
+ text-decoration:none; }
+
+ a{
+ display: inline-block;
+ text-decoration-style: none;
+ color: white;
+ text-decoration-line: none;
+ }
+
+
+body{
+margin: 0px;
+padding: 0px;
+background-color: #F4BA2B;
+}
+
+@media (max-width: 800px) {
+h1{font-size: 60px;
+color: #F4BA2B;
+}
+
+h2, a{font-size: 40px;
+text-decoration-line: none;
+color: #F4BA2B;
+}
+
+
+body{background-color: ghostwhite;}
+
+.bottom{
+background-color: transparent;
+position: absolute;
+bottom: 0px;
+left: 25%;
+}
+
+.uno{
+background-color: transparent;
+position: absolute;
+left: 0px;
+top: 0px;
+}
+
+.leg1{
+  position: absolute;
+width: 400px;
+margin-top: 0px;
+}
+
+.unoi{
+position: absolute;
+left: 20px;
+}
+
+}
+

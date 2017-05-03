@@ -1,0 +1,249 @@
+
+.dos{
+background-color: transparent;
+margin: 0px;
+padding: 0px;
+height: 300px;
+}
+
+.flo, .flor, .flore, .flores{
+position: absolute;
+width: 400px;
+height: 400px;
+background: transparent;
+transition: width 2s, height 2s, transform 2s;
+}
+
+.flo{
+left: 0%;
+top: 33%;
+transform: rotate(10deg);
+}
+
+.flor{
+left:24%;
+top: 15%;
+}
+
+.flore{
+left:45%;
+top: 20%;
+transform: rotate(80deg);
+}
+
+.flores{
+right: 0%;
+  top: 17%;
+  transform: rotate(80deg);
+}
+
+.flo:hover, .flor:hover, .flore:hover, .flores:hover{
+width: 400px;
+height: 400px;
+-webkit-transform: rotate(180deg); /* Safari */
+transform: rotate(180deg);
+}
+
+.flo, .flore{
+transition: 1s;
+transition-timing-function: ease-in;
+}
+
+.bottom{
+background-color: transparent;
+position: absolute;
+bottom: 0px;
+left: 31%;
+}
+
+.tres{
+background-color: mediumturquoise;
+left: 50%;
+top: 50%;
+}
+
+.izq{
+position: absolute;
+left: 3px;
+bottom: 3px;
+}
+
+.der{
+position: absolute;
+right: 3px;
+bottom: 3px;
+}
+
+h1{
+margin: 3px;
+font-size: 120px;
+font-family: 'Oswald', sans-serif;
+text-align: center;
+color: white;
+display: inline-block;
+text-decoration-style: none;
+}
+
+h2{
+margin: 3px;
+font-size: 100px;
+font-family: 'Oswald', sans-serif;
+text-align: center;
+color: white;
+display: inline-block;
+text-decoration-style: none;
+}
+
+a:link{
+text-decoration:none; }
+
+a{
+display: inline-block;
+text-decoration-style: none;
+color: white;
+text-decoration-line: none;
+}
+
+body{
+margin: 0px;
+padding: 0px;
+background-color: deeppink;
+}
+
+-----------------------------------------
+-----------------------------------------
+
+
+@media (max-width: 1260px) {
+h1{
+font-size: 110px;
+}
+
+h2{
+margin: 3px;
+font-size: 100px;}
+
+body{
+background-color: palevioletred;}
+
+.bottom{
+background-color: transparent;
+position: absolute;
+bottom: 0px;
+left: 20%;}
+}
+
+
+@media (max-width: 880px) {
+h1{font-size: 110px;
+}
+
+h2{
+font-size: 70px;
+margin-left: 10px;
+ }
+
+body{
+background-color: darksalmon;}
+
+.bottom{
+background-color: transparent;
+position: absolute;
+bottom: 0px;
+left: 20%;}
+
+.flo, .flor, .flore, .flores{
+position: absolute;
+width: 250px;
+height: 250px;
+background: transparent;
+-webkit-transition: width 2s, height 2s, -webkit-transform 2s; /* Safari */
+transition: width 2s, height 2s, transform 2s;
+}
+
+
+.flo{
+left: 0%;
+top: 43%;
+}
+
+.flor{
+left:20%;
+top: 50%;
+}
+
+.flore{
+left:40%;
+top: 50%;
+}
+
+.flores{
+right: 0%;
+top: 48%;
+}
+
+.flo:hover, .flor:hover, .flore:hover, .flores:hover{
+width: 250px;
+height: 250px;
+-webkit-transform: rotate(180deg); /* Safari */
+transform: rotate(180deg);}
+
+}
+
+
+
+@media (max-width: 525px) {
+h1{font-size: 90px;}
+
+h2{font-size: 40px;
+text-decoration-style: none
+}
+
+body{background-color: darkseagreen;}
+
+.bottom{
+background-color: transparent;
+position: absolute;
+bottom: 0px;
+left: 25%;
+}
+
+.flo, .flor, .flore, .flores{
+position: absolute;
+width: 150px;
+height: 150px;
+background: transparent;
+-webkit-transition: width 2s, height 2s, -webkit-transform 2s; /* Safari */
+transition: width 2s, height 2s, transform 2s;
+}
+
+
+.flo{
+left: 0%;
+top: 43%;
+}
+
+.flor{
+left:20%;
+top: 50%;
+}
+
+.flore{
+left:40%;
+top: 47%;
+}
+
+.flores{
+right: 0%;
+top: 44%;
+}
+
+.flo:hover, .flor:hover, .flore:hover, .flores:hover{
+width: 150px;
+height: 150px;
+-webkit-transform: rotate(180deg); /* Safari */
+transform: rotate(180deg);
+}
+
+}
+

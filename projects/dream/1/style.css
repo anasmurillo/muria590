@@ -1,0 +1,142 @@
+.rat, .rat1, .rat2{
+position: absolute;
+right: 10%;
+width: 400px;
+bottom: 0%;
+margin-bottom: 0px;
+margin: 0px;
+padding: 0px;
+}
+
+.rat1:hover{
+position: absolute;
+right: 40%;
+}
+
+.rata{
+width: 500px;
+min-height: 50vh;
+}
+
+.bottom{
+background-color: transparent;
+position: absolute;
+bottom: 0px;
+left: 33%;
+}
+
+.tres{
+background-color: mediumturquoise;
+left: 50%;
+top: 50%;
+}
+
+.izq{
+position: absolute;
+left: 3px;
+bottom: 3px;
+}
+
+.der{
+  position: absolute;
+  right: 3px;
+  bottom: 3px;
+}
+
+h1{
+margin: 3px;
+font-size: 120px;
+font-family: 'Oswald', sans-serif;
+text-align: center;
+color: white;
+display: inline-block;
+text-decoration-style: none;
+}
+
+h2{
+margin: 3px;
+font-size: 100px;
+font-family: 'Oswald', sans-serif;
+text-align: center;
+color: white;
+display: inline-block;
+text-decoration-style: none;
+}
+
+body{
+margin: 0px;
+padding: 0px;
+background-color: deeppink;
+display: inline-block;
+box-sizing: border-box;
+}
+
+a{
+display: inline-block;
+text-decoration-style: none;
+color: white;
+text-decoration-line: none;
+}
+
+
+@media (max-width: 1260px) {
+h1{
+font-size: 110px;
+}
+
+h2{
+margin: 3px;
+font-size: 100px;}
+
+body{
+background-color: palevioletred;}
+
+.bottom{
+background-color: transparent;
+position: absolute;
+bottom: 0px;
+left: 20%;
+}
+}
+
+
+@media (max-width: 880px) {
+h1{font-size: 110px;
+}
+
+h2{
+font-size: 70px;}
+
+body{
+background-color: darksalmon;}
+
+.bottom{
+background-color: transparent;
+position: absolute;
+bottom: 0px;
+left: 20%;
+}
+}
+
+
+
+@media (max-width: 700px) {
+h1{font-size: 90px;}
+
+h2{font-size: 40px;
+text-decoration-style: none
+}
+
+body{background-color: darkseagreen;}
+
+.bottom{
+background-color: transparent;
+position: absolute;
+bottom: 0px;
+left: 25%;
+}
+
+}
+
+
+
