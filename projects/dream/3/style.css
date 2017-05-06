@@ -1,3 +1,9 @@
+body{
+margin: 0px;
+padding: 0px;
+background-color: #F4BA2B;
+}
+
 .uno{
 background-color: transparent;
 position: absolute;
@@ -67,7 +73,7 @@ align-content: center;
 background-color: transparent;
 position: absolute;
 bottom: 0px;
-left: 31%;
+left: 25%;
 }
 
 .tres{
@@ -90,22 +96,25 @@ bottom: 3px;
 
 h1{
 margin: 0px;
+margin-top: -25px;
 font-size: 120px;
-font-family: 'Oswald', sans-serif;
+font-family: 'Monoton', cursive;
 text-align: center;
-color: white;
+color: #673ab7;
 display: inline-block;
 text-decoration-style: none;
+font-weight: normal;
 }
 
 h2{
 margin: 0px;
 font-size: 100px;
-font-family: 'Oswald', sans-serif;
+font-family: 'Monoton', cursive;
 text-align: center;
-color: white;
+color: #673ab7;
 display: inline-block;
 text-decoration-style: none;
+font-weight: normal;
 }
 
 a:link{
@@ -113,24 +122,20 @@ a:link{
 
  a{
  display: inline-block;
- text-decoration-style: none;
- color: white;
+ font-family: 'Monoton', cursive;
+ color: #673ab7;
  text-decoration-line: none;
+ font-weight: normal;
  }
 
 
-body{
-margin: 0px;
-padding: 0px;
-background-color: #F4BA2B;
-}
-
 @media (max-width: 800px) {
-h1{font-size: 60px;
+h1{font-size: 40px;
 color: #F4BA2B;
+margin: 0px;
 }
 
-h2, a{font-size: 40px;
+h2, a{font-size: 30px;
 text-decoration-line: none;
 color: #F4BA2B;
 }
@@ -154,7 +159,6 @@ top: 0px;
 
 .leg1{
   position: absolute;
-width: 400px;
 margin-top: 0px;
 }
 

@@ -77,21 +77,21 @@ bottom: 3px;
 h1{
 margin: 3px;
 font-size: 120px;
-font-family: 'Oswald', sans-serif;
+font-family: 'Francois One', sans-serif;
 text-align: center;
 color: white;
 display: inline-block;
-text-decoration-style: none;
+font-weight: normal;
 }
 
 h2{
 margin: 3px;
 font-size: 100px;
-font-family: 'Oswald', sans-serif;
+font-family: 'Francois One', sans-serif;
 text-align: center;
 color: white;
 display: inline-block;
-text-decoration-style: none;
+font-weight: normal;
 }
 
 a:link{
@@ -99,6 +99,7 @@ text-decoration:none; }
 
 a{
 display: inline-block;
+font-weight: normal;
 text-decoration-style: none;
 color: white;
 text-decoration-line: none;
@@ -154,8 +155,8 @@ left: 20%;}
 
 .flo, .flor, .flore, .flores{
 position: absolute;
-width: 250px;
-height: 250px;
+width: 200px;
+height: 200px;
 background: transparent;
 -webkit-transition: width 2s, height 2s, -webkit-transform 2s; /* Safari */
 transition: width 2s, height 2s, transform 2s;
@@ -183,8 +184,8 @@ top: 48%;
 }
 
 .flo:hover, .flor:hover, .flore:hover, .flores:hover{
-width: 250px;
-height: 250px;
+width: 200px;
+height: 200px;
 -webkit-transform: rotate(180deg); /* Safari */
 transform: rotate(180deg);}
 

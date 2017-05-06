@@ -1,0 +1,150 @@
+body{
+margin: 0px;
+padding: 0px;
+background-color: ghostwhite;
+}
+
+.friends{
+top: 40%;
+width: 80vw;
+height: 100vh;
+display: inline-grid;
+margin: 0px;
+padding:0px;
+}
+
+.maria, .maria2, .m{
+  position: absolute;
+  left: 10%;
+}
+
+.elisa, .elisa2, .e{
+  position: absolute;
+  left: 30%;
+}
+
+.josefina, .josefina2, .j{
+  position: absolute;
+  left: 50%;
+}
+
+.cel, .cel2, .c{
+  position: absolute;
+  left: 70%;
+}
+
+.maria, .elisa, .josefina, .cel{
+height: 100vh;
+opacity: 1;
+top: 12%;
+height: 91%;
+}
+
+.maria:hover, .elisa:hover, .josefina:hover, .cel:hover{
+    opacity:0;}
+
+
+.maria2, .m, .josefina2, .j, .elisa2, .e, .cel2, .c{
+  position: absolute;
+  height: 100vh;
+  display: none;
+}
+
+
+ .dos{
+   position: absolute;
+ background-color: transparent;
+ margin: 0px;
+ padding: 0px;
+ top: 0px;
+ left: 10px;
+ }
+
+.bottom{
+background-color: transparent;
+position: absolute;
+bottom: 0px;
+left: 33%;
+}
+
+.izq{
+  margin: 0px;
+position: absolute;
+left: 0px;
+bottom: 3px;
+}
+
+.der{
+  position: absolute;
+  right: 6px;
+  bottom: 3px;
+}
+
+h1{
+    margin: 0px;
+  margin-left: 0px;
+  padding-top: 0px;
+  font-size: 100px;
+  font-family: 'Just Another Hand', cursive;
+text-align: center;
+color: #ff3bea;
+font-weight: normal;
+}
+
+h2{
+  margin: 20px;
+margin-left: 0px;
+padding-top: 0px;
+font-size: 140px;
+font-family: 'Just Another Hand', cursive;
+text-align: left;
+color: #ff3bea;
+display: inline-block;
+font-weight: normal;
+}
+
+a:link{
+ text-decoration:none; }
+
+ a{
+ display: inline-block;
+ text-decoration-style: none;
+ color: #ff3bea;
+ text-decoration-line: none;
+ }
+
+
+@media (max-width: 810px) {
+h1{font-size: 40px;}
+
+h2{font-size: 70px;
+text-decoration-style: none
+}
+
+body{background-color: black;}
+
+.bottom{
+background-color: transparent;
+position: absolute;
+bottom: 0px;
+left: 28%;
+}
+
+.friends{
+  position: absolute;
+top: 20%;}
+
+.maria, .elisa, .josefina, .cel{
+height: 100vh;
+opacity: 0;
+}
+
+.maria2, .m, .josefina2, .j, .elisa2, .e, .cel2, .c{
+  position: absolute;
+  height: 70vh;
+  display: inline-grid;
+  padding:0px;
+}
+
+}
+

@@ -1,0 +1,131 @@
+body{
+margin: 0px;
+padding: 0px;
+background-color: ghostwhite;
+}
+
+.dos{
+  position: absolute;
+  top: 0px;
+}
+
+.contain{
+position: absolute;
+height: 100vh;
+}
+
+.think, .thinky{
+position: absolute;
+ height: 100%;
+bottom: 0%;
+left: 280px;
+}
+
+.think:hover{
+animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+transform: translate3d(0, 0, 0);
+backface-visibility: hidden;
+perspective: 1000px;
+}
+
+@keyframes shake {
+10%, 90% {
+transform: translate3d(-1px, 0, 0);
+}
+
+20%, 80% {
+transform: translate3d(2px, 0, 0);
+}
+
+30%, 50%, 70% {
+transform: translate3d(-4px, 0, 0);
+}
+
+40%, 60% {
+transform: translate3d(4px, 0, 0);
+}
+}
+
+.bottom{
+background-color: transparent;
+position: absolute;
+bottom: 0px;
+left: 28%;
+}
+
+.izq{
+  margin: 0px;
+position: absolute;
+left: 0px;
+bottom: 3px;
+}
+
+.der{
+  position: absolute;
+  right: 6px;
+  bottom: 3px;
+}
+
+h1{
+    margin: 0px;
+  margin-left: 0px;
+  padding-top: 0px;
+  font-size: 90px;
+  font-family: 'Barrio', cursive;
+text-align: center;
+color: black;
+font-weight: normal;
+}
+
+h2{
+  margin: 0px;
+margin-left: 20px;
+padding-top: 0px;
+font-size: 140px;
+font-family: 'Barrio', cursive;
+text-align: left;
+color: black;
+display: inline-block;
+font-weight: normal;
+}
+
+a:link{
+ text-decoration:none; }
+
+ a{
+ display: inline-block;
+ text-decoration-style: none;
+ color: black;
+ text-decoration-line: none;
+ }
+
+
+@media (max-width: 910px) {
+h1{font-size: 40px;}
+
+h2{font-size: 70px;
+text-decoration-style: none
+margin: 0px;
+}
+
+body{
+  margin: 0px;
+background-color: white;}
+
+.bottom{
+background-color: transparent;
+position: absolute;
+bottom: 0px;
+left: 28%;
+}
+
+.contain{
+position: absolute;
+height: 100vh;
+}
+
+.think, .thinky{
+position: absolute;
+ height: 80vh;
+ left: -10px;
+}

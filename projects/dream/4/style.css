@@ -1,47 +1,70 @@
-body{
+  body{
   margin: 0px;
-  margin-left: 10px;
   padding: 0px;
-  background-color: #F4BA2B;
+  background-color: #b80030;
   }
+  .pie{
+    height: 100vh;
+    width: 100vw;
+    margin: 0px;
+  }
+  .hola{
+  align-content: center;
+  }
+
+  .wat{
+    width: 100vw;
+  }
+
+ .dos{
+  position: absolute;
+  background-color: transparent;
+  left: 3%;
+  top: 2%;
+ }
 
 .bottom{
 background-color: transparent;
 position: absolute;
-bottom: 0px;
-left: 31%;
+bottom:7%;
+left: 27%;
+margin-bottom: 0px;
 }
 
 .izq{
+  margin: 0px;
 position: absolute;
-left: 3px;
-bottom: 3px;
+left: 0px;
+bottom:7%;
 }
 
 .der{
   position: absolute;
-  right: 3px;
-  bottom: 3px;
+  right: 6px;
+  bottom:7%;
 }
 
 h1{
-margin: 3px;
-font-size: 120px;
-font-family: 'Oswald', sans-serif;
+  margin: 10px;
+  padding-top: 0px;
+  font-size: 100px;
+  font-family: 'Pacifico', cursive;
 text-align: center;
-color: white;
-display: inline-block;
-text-decoration-style: none;
+color: #a9fd9d;
+line-height: 30px;
+font-weight: normal;
 }
 
 h2{
-margin: 0px;
-font-size: 100px;
-font-family: 'Oswald', sans-serif;
+  margin: 0px;
+  line-height: 140px;
+margin-bottom: 0px;
+padding-bottom: 0px;
+font-size: 140px;
+font-family: 'Pacifico', cursive;
 text-align: center;
-color: white;
-display: inline-block;
-text-decoration-style: none;
+color: #a9fd9d;
+font-weight: normal;
 }
 
 a:link{
@@ -49,21 +72,20 @@ a:link{
 
  a{
  display: inline-block;
+ font-weight: normal;
  text-decoration-style: none;
- color: white;
+ color: #a9fd9d;
+ font-family: 'Oswald', sans-serif;
  text-decoration-line: none;
  }
 
-body{
-margin-left: 10px;
-padding: 0px;
-background-color: #F4BA2B;
-}
+
 
 @media (max-width: 700px) {
-h1{font-size: 30px;}
+h1{font-size: 40px;}
 
-h2{font-size: 40px;
+h2{font-size: 70px;
+  line-height: 90px;
 text-decoration-style: none
 }
 
@@ -73,7 +95,19 @@ body{background-color: darkseagreen;}
 background-color: transparent;
 position: absolute;
 bottom: 0px;
-left: 25%;
+left: 23%;
+}
+.izq{
+  margin: 0px;
+position: absolute;
+left: 0px;
+bottom:0%;
+}
+
+.der{
+  position: absolute;
+  right: 6px;
+  bottom:0%;
 }
 
 }
