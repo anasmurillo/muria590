@@ -101,16 +101,18 @@ a:link{
 
 
 @media (max-width: 910px) {
-h1{font-size: 40px;}
+h1, a{font-size: 40px;
+color: white;}
 
 h2{font-size: 70px;
 text-decoration-style: none
 margin: 0px;
+color: white;
 }
 
 body{
   margin: 0px;
-background-color: white;}
+background-color: black;}
 
 .bottom{
 background-color: transparent;

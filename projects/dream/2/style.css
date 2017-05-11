@@ -1,6 +1,6 @@
 
 .dos{
-background-color: transparent;
+background-color: white;
 margin: 0px;
 padding: 0px;
 height: 300px;
@@ -50,7 +50,7 @@ transition-timing-function: ease-in;
 }
 
 .bottom{
-background-color: transparent;
+background-color: white;
 position: absolute;
 bottom: 0px;
 left: 31%;
@@ -79,7 +79,7 @@ margin: 3px;
 font-size: 120px;
 font-family: 'Francois One', sans-serif;
 text-align: center;
-color: white;
+color: deeppink;
 display: inline-block;
 font-weight: normal;
 }
@@ -89,7 +89,7 @@ margin: 3px;
 font-size: 100px;
 font-family: 'Francois One', sans-serif;
 text-align: center;
-color: white;
+color: deeppink;
 display: inline-block;
 font-weight: normal;
 }
@@ -101,7 +101,7 @@ a{
 display: inline-block;
 font-weight: normal;
 text-decoration-style: none;
-color: white;
+color: deeppink;
 text-decoration-line: none;
 }
 
@@ -137,18 +137,20 @@ left: 20%;}
 
 @media (max-width: 880px) {
 h1{font-size: 110px;
+  color: darksalmon;
 }
 
-h2{
+h2, a{
 font-size: 70px;
 margin-left: 10px;
+color: darksalmon;
  }
 
 body{
 background-color: darksalmon;}
 
 .bottom{
-background-color: transparent;
+background-color: color;
 position: absolute;
 bottom: 0px;
 left: 20%;}
@@ -194,16 +196,19 @@ transform: rotate(180deg);}
 
 
 @media (max-width: 525px) {
-h1{font-size: 90px;}
+h1{font-size: 90px;
+color: #F1F539;}
 
-h2{font-size: 40px;
-text-decoration-style: none
+h2, a{
+  font-size: 38px;
+
+color: #F1F539;
 }
 
-body{background-color: darkseagreen;}
+body{background-color: #F1F539;}
 
 .bottom{
-background-color: transparent;
+background-color: white;
 position: absolute;
 bottom: 0px;
 left: 25%;

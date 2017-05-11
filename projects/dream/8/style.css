@@ -1,0 +1,145 @@
+body{
+margin: 0px;
+padding: 0px;
+background-color: ghostwhite;
+}
+
+.dos{
+position: absolute;
+top: 5%;
+right: 30%;
+left: 30%;
+background-color: #782750;
+}
+
+.flowers, .nina{
+width: 100vw:
+margin: 0px;
+}
+
+.ninas{
+position: absolute;
+bottom: 0%;
+left: 40%;
+right: 25%;
+height: 70vh;
+transition: width 2s, height 2s, transform 2s;
+}
+
+.f, .fl, .flo, .flor, .flore, .flores{
+position: absolute;
+top: 30%;
+height: 60vh;
+transition: width 2s, height 2s, transform 2s;}
+
+.f{
+  left: 14%;
+}
+.fl{
+  right: 14%;
+}
+.flo{
+left: 2%;
+}
+.flor{
+left: 27%;
+}
+.flore{
+right: 27%;
+}
+.flores{
+right: 2%;
+}
+
+
+
+.f:hover, .fl:hover, .flo:hover, .flor:hover, .flore:hover, .flores:hover{
+  transform: perspective( 600px ) rotateY( 50deg );
+transition: width 1s, height 1s, transform 1s;}
+
+h1{
+margin: 0px;
+margin-left: 0px;
+padding-top: 0px;
+font-size: 60px;
+font-family: 'Montserrat', sans-serif;
+text-align: center;
+color: white;
+font-weight: normal;
+}
+
+h2, a{
+margin: 0px;
+margin-left: 20px;
+padding-top: 0px;
+font-size: 40px;
+font-family: 'Montserrat', sans-serif;
+text-align: left;
+color: #782750;
+display: inline-block;
+font-weight: normal;
+}
+
+a:link{
+text-decoration:none; }
+
+a{
+display: inline-block;
+text-decoration-style: none;
+text-decoration-line: none;
+font-size: 40px;
+font-family: 'Montserrat', sans-serif;
+}
+
+.bottom{
+background-color: transparent;
+position: absolute;
+bottom: 1%;
+right: 2%;
+}
+
+@media (max-width: 1430px) {
+body{
+background-color: white;
+}
+}
+
+@media (max-width: 1046px) {
+}
+
+@media (max-width: 910px) {
+}
+
+@media (max-width: 610px) {
+body{
+background-color: white;
+}
+
+h1{
+  font-size: 40px;
+}
+
+.bottom{
+bottom: 2%;
+right: 1%;
+}
+
+h2, a{
+font-size: 20px;
+}
+
+.ninas{
+position: absolute;
+bottom: 0%;
+left: 25%;
+right: 25%;
+height: 50vh;
+}
+
+.f{
+  display: none;
+}
+.fl{
+  display: none;
+}
+}

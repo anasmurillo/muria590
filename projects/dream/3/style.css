@@ -1,7 +1,7 @@
 body{
 margin: 0px;
 padding: 0px;
-background-color: #F4BA2B;
+background-color: ghostwhite;
 }
 
 .uno{
@@ -40,11 +40,12 @@ top: 0px;
 
 .dos{
   position: absolute;
-background-color: transparent;
+background-color: #E60B27;
 margin: 0px;
 padding: 0px;
-top: 0px;
-left: 10px;
+top: 40%;
+bottom: 40%
+left: 2%;
 }
 
 .leg1{
@@ -70,37 +71,21 @@ align-content: center;
 }
 
 .bottom{
-background-color: transparent;
+  background-color: white;
 position: absolute;
 bottom: 0px;
-left: 25%;
+right: 2%;
 }
 
-.tres{
-background-color: mediumturquoise;
-left: 50%;
-top: 50%;
-}
 
-.izq{
-position: absolute;
-left: 3px;
-bottom: 3px;
-}
-
-.der{
-  position: absolute;
-  right: 3px;
-  bottom: 3px;
-}
 
 h1{
 margin: 0px;
-margin-top: -25px;
-font-size: 120px;
-font-family: 'Monoton', cursive;
+padding: 20px;
+font-size: 70px;
+font-family: 'Anton', sans-serif;
 text-align: center;
-color: #673ab7;
+color: ghostwhite;
 display: inline-block;
 text-decoration-style: none;
 font-weight: normal;
@@ -108,10 +93,10 @@ font-weight: normal;
 
 h2{
 margin: 0px;
-font-size: 100px;
-font-family: 'Monoton', cursive;
+font-size: 70px;
+font-family: 'Anton', sans-serif;
 text-align: center;
-color: #673ab7;
+color: #E60B27;
 display: inline-block;
 text-decoration-style: none;
 font-weight: normal;
@@ -122,32 +107,35 @@ a:link{
 
  a{
  display: inline-block;
- font-family: 'Monoton', cursive;
- color: #673ab7;
+ font-family: 'Anton', sans-serif;
  text-decoration-line: none;
+ color:#E60B27;
+padding-left: 10px;
+padding-right: 10px;
  font-weight: normal;
  }
 
 
 @media (max-width: 800px) {
 h1{font-size: 40px;
-color: #F4BA2B;
+color: ghostwhite;
 margin: 0px;
 }
 
 h2, a{font-size: 30px;
 text-decoration-line: none;
-color: #F4BA2B;
+color: #E60B27;
 }
 
 
 body{background-color: ghostwhite;}
 
 .bottom{
-background-color: transparent;
+  background-color: ghostwhite;
 position: absolute;
 bottom: 0px;
-left: 25%;
+left: 30%;
+right: 30%;
 }
 
 .uno{
