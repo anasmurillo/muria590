@@ -12,34 +12,34 @@ top: 0px;
 }
 
 .unoi{
-  background-color: transparent;
-  position: absolute;
-  left: 410px;
-  top: 0px;
+background-color: transparent;
+position: absolute;
+left: 410px;
+top: 0px;
 }
 
 .uno:hover{
-  left: 500px;
+left: 500px;
 }
 
 .uno{
-  transition: width 2s, height 2s, transform 2s;
-  transition: 2s;
- transition-timing-function: ease-in;
+transition: width 2s, height 2s, transform 2s;
+transition: 2s;
+transition-timing-function: ease-in;
 }
 
 .unoi:hover{
-  left: 700px;
+left: 700px;
 }
 
 .unoi{
-    transition: width 2s, height 2s, transform 2s;
-    transition: 2s;
-   transition-timing-function: ease-in;
-  }
+transition: width 2s, height 2s, transform 2s;
+transition: 2s;
+transition-timing-function: ease-in;
+}
 
 .dos{
-  position: absolute;
+position: absolute;
 background-color: #E60B27;
 margin: 0px;
 padding: 0px;
@@ -49,13 +49,13 @@ left: 2%;
 }
 
 .leg1{
-  position: absolute;
+position: absolute;
 width: 500px;
 margin-top: 0px;
 }
 
 .leg2{
-  position: absolute;
+position: absolute;
 width: 500px;
 margin-top: 0px;
 }
@@ -65,15 +65,18 @@ align-content: center;
 }
 
 .pie{
-  height: 100vh;
-  width: 100vw;
-  margin: 0px;
+height: 100vh;
+width: 100vw;
+margin: 0px;
 }
 
 .bottom{
-  background-color: white;
 position: absolute;
-bottom: 0px;
+background-color: white;
+margin: 0px;
+padding: 0px;
+top: 40%;
+bottom: 40%;
 right: 2%;
 }
 
@@ -92,32 +95,33 @@ font-weight: normal;
 }
 
 h2{
+color: #E60B27;
 margin: 0px;
+padding: 20px;
 font-size: 70px;
 font-family: 'Anton', sans-serif;
 text-align: center;
-color: #E60B27;
 display: inline-block;
 text-decoration-style: none;
 font-weight: normal;
 }
 
 a:link{
- text-decoration:none; }
+text-decoration:none; }
 
- a{
- display: inline-block;
- font-family: 'Anton', sans-serif;
- text-decoration-line: none;
- color:#E60B27;
+a{
+display: inline-block;
+font-family: 'Anton', sans-serif;
+text-decoration-line: none;
+color:#E60B27;
 padding-left: 10px;
 padding-right: 10px;
- font-weight: normal;
- }
+font-weight: normal;
+}
 
 
-@media (max-width: 800px) {
-h1{font-size: 40px;
+@media (max-width: 930px) {
+h1{font-size: 30px;
 color: ghostwhite;
 margin: 0px;
 }
@@ -131,12 +135,16 @@ color: #E60B27;
 body{background-color: ghostwhite;}
 
 .bottom{
-  background-color: ghostwhite;
 position: absolute;
-bottom: 0px;
-left: 30%;
-right: 30%;
+background-color: white;
+margin: 0px;
+padding: 0px;
+top: 40%;
+bottom: 48%;
+right: 0%;
 }
+
+
 
 .uno{
 background-color: transparent;
@@ -146,13 +154,25 @@ top: 0px;
 }
 
 .leg1{
-  position: absolute;
+position: absolute;
+width: 400px;
+margin-top: 0px;
+}
+
+.leg2{
+position: absolute;
+width: 400px;
 margin-top: 0px;
 }
 
 .unoi{
 position: absolute;
-left: 20px;
+left: 10px;
+}
+
+
+body{
+  background-color: #ffd662;
 }
 
 }
