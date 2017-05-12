@@ -1,0 +1,273 @@
+body{
+margin: 0px;
+padding: 0px;
+background-color: ghostwhite;
+overflow: scroll;
+background-repeat: no-repeat;
+}
+
+img{
+  background-repeat: no-repeat;
+}
+
+#myDiv{
+  background-repeat: no-repeat;
+  overflow: scroll;
+}
+
+.ajax-loader, .dragscroll{
+  width: 100vw;
+  background-repeat: no-repeat;
+  overflow: scroll;
+}
+
+.pie{
+height: 100vh;
+width: 100vw;
+margin: 0px;
+background-repeat: no-repeat;
+}
+
+.dos{
+position: absolute;
+background-color: ghostwhite;
+padding: 10px;
+left: 2%;
+top: 2%;
+right: 50%;
+}
+
+.bottom{
+background-color: ghostwhite;
+position: absolute;
+bottom: 2%;
+right: 2%;
+margin: 0px;
+padding: 0px;
+}
+
+h1, a{
+margin: 0px;
+padding: 10px;
+font-size: 50px;
+font-family: 'Roboto', sans-serif;
+text-align: center;
+color: #C20A43;
+font-weight: normal;
+}
+
+h2{
+margin: 0px;
+line-height: 1;
+margin-bottom: 0px;
+font-size: 60px;
+font-family: 'Roboto', sans-serif;
+text-align: left;
+color: #C20A43;
+font-weight: normal;
+}
+
+a:link{
+text-decoration:none; }
+
+a{
+display: inline-block;
+font-weight: normal;
+text-decoration-style: none;
+color: #C20A43;
+font-family: 'Roboto', sans-serif;
+text-decoration-line: none;
+}
+
+
+@media (max-width: 1440px) {
+h1{
+margin: 10px;
+padding-top: 0px;
+font-size: 100px;
+font-family: 'Roboto', sans-serif;
+text-align: center;
+color: white;
+line-height: 30px;
+font-weight: normal;
+}
+
+h2{
+margin: 0px;
+line-height: 1;
+margin-bottom: 0px;
+padding-bottom: 0px;
+font-size: 100px;
+font-family: 'Roboto', sans-serif;
+text-align: left;
+color: #C20A43;
+font-weight: normal;
+}
+
+
+.dos{
+position: absolute;
+padding: 10px;
+background-color: white;
+left: 2%;
+top: 2%;
+right: 50%;
+}
+
+@media (max-width: 1330px) {
+h1{
+margin: 10px;
+padding: 0px;
+font-size: 90px;
+font-family: 'Roboto', sans-serif;
+text-align: left;
+color: white;
+font-weight: normal;
+}
+
+h2{
+line-height: 1;
+font-size: 60px;
+font-family: 'Roboto', sans-serif;
+text-align: left;
+color: #C20A43;
+font-weight: normal;
+}
+
+.bottom{
+background-color: white;
+position: absolute;
+bottom: 3%;
+right: 2%;
+margin: 0px;
+}
+
+.dos{
+position: absolute;
+background-color: white;
+left: 2%;
+top: 2%;
+right: 50%;
+padding: 10px;
+}
+
+}
+
+@media (max-width: 1060px) {
+h1, a{
+font-size: 40px;
+}
+
+h2{
+font-size: 50px;
+
+}
+
+.bottom{
+background-color: white;
+position: absolute;
+bottom: 3%;
+right: 2%;
+margin: 0px;
+}
+
+.dos{
+position: absolute;
+background-color: white;
+left: 2%;
+top: 2%;
+right: 50%;
+padding: 10px;
+}
+
+}
+
+@media (max-width: 810px) {
+  h1, a{
+  font-size: 30px;
+  }
+
+  h2{
+  font-size: 50px;
+
+  }
+
+  .bottom{
+  background-color: white;
+  position: absolute;
+  bottom: 3%;
+  right: 2%;
+  margin: 0px;
+  }
+
+  .dos{
+  position: absolute;
+  background-color: white;
+  left: 2%;
+  top: 2%;
+  right: 50%;
+  padding: 10px;
+  }
+
+}
+
+@media (max-width: 670px) {
+  h1, a{
+    padding: 10px;
+  font-size: 30px;
+  }
+
+  h2{
+  font-size: 40px;
+
+  }
+
+  .bottom{
+  background-color: white;
+  position: absolute;
+  bottom: 3%;
+  right: 2%;
+  margin: 0px;
+  }
+
+  .dos{
+ padding: 10px;
+  position: absolute;
+  background-color: white;
+  left: 2%;
+  top: 2%;
+  right: 45%;
+  }
+
+}
+
+
+@media (max-width: 600px) {
+  h1, a{
+    padding: 10px;
+  font-size: 30px;
+  }
+
+  h2{
+  font-size: 40px;
+  }
+
+  .bottom{
+  background-color: white;
+  position: absolute;
+  bottom: 3%;
+  right: 2%;
+  margin: 0px;
+  }
+
+  .dos{
+    padding: 10px;
+  position: absolute;
+  background-color: white;
+  left: 2%;
+  top: 2%;
+  right: 28%;
+  }
+
+}
+
