@@ -1,95 +1,84 @@
-
-.dos{
-background-color: white;
+body{
 margin: 0px;
 padding: 0px;
-height: 300px;
+background-color: ghostwhite;
 }
 
-.flo, .flor, .flore, .flores{
+.dos{
 position: absolute;
-width: 400px;
-height: 400px;
+top: 10%;
+right: 3%;
+left: 40%;
+background-color: black;
+}
+
+.contain{
+position: absolute;
+height: 100vh;
+margin: auto;
+}
+
+.manos{
+height: 100vh;
+}
+
+.trump{
+position: absolute;
+height: 90%;
+bottom: 0%;
+left: 40px;
 background: transparent;
 transition: width 2s, height 2s, transform 2s;
 }
 
-.flo{
-left: 0%;
-top: 33%;
-transform: rotate(10deg);
+.thinkie, .think{
+position: absolute;
+height: 40%;
+background: transparent;
+transition: width 2s, height 2s, transform 2s;
 }
 
-.flor{
-left:24%;
-top: 15%;
+.think{
+position: absolute;
+left: -13px;
+top: 46%;
 }
 
-.flore{
-left:45%;
-top: 20%;
-transform: rotate(80deg);
+.thinkie{
+position: absolute;
+left: 233px;
+top: 46%;
 }
 
-.flores{
-right: 0%;
-  top: 17%;
-  transform: rotate(80deg);
+.think:hover, .thinkie:hover{
+-webkit-transform: rotate(35deg); /* Safari */
+transform: rotate(35deg);
 }
 
-.flo:hover, .flor:hover, .flore:hover, .flores:hover{
-width: 400px;
-height: 400px;
--webkit-transform: rotate(180deg); /* Safari */
-transform: rotate(180deg);
-}
-
-.flo, .flore{
+.think, .thinkie{
 transition: 1s;
 transition-timing-function: ease-in;
 }
 
-.bottom{
-background-color: white;
-position: absolute;
-bottom: 0px;
-left: 31%;
-}
-
-.tres{
-background-color: mediumturquoise;
-left: 50%;
-top: 50%;
-}
-
-.izq{
-position: absolute;
-left: 3px;
-bottom: 3px;
-}
-
-.der{
-position: absolute;
-right: 3px;
-bottom: 3px;
-}
-
-h1{
-margin: 3px;
-font-size: 120px;
-font-family: 'Francois One', sans-serif;
+h1, a{
+margin: 0px;
+margin-left: 0px;
+padding-top: 0px;
+font-size: 60px;
+font-family: 'Arvo', serif;
 text-align: center;
-color: deeppink;
-display: inline-block;
+color: black;
 font-weight: normal;
 }
 
 h2{
-margin: 3px;
-font-size: 100px;
-font-family: 'Francois One', sans-serif;
-text-align: center;
-color: deeppink;
+margin: 0px;
+margin-left: 20px;
+padding-top: 0px;
+font-size: 140px;
+font-family: 'Arvo', serif;
+text-align: left;
+color: white;
 display: inline-block;
 font-weight: normal;
 }
@@ -99,157 +88,141 @@ text-decoration:none; }
 
 a{
 display: inline-block;
-font-weight: normal;
 text-decoration-style: none;
-color: deeppink;
+color: black;
 text-decoration-line: none;
+font-family: 'Arvo', serif;
 }
-
-body{
-margin: 0px;
-padding: 0px;
-background-color: deeppink;
-}
-
------------------------------------------
------------------------------------------
-
-
-@media (max-width: 1260px) {
-h1{
-font-size: 110px;
-}
-
-h2{
-margin: 3px;
-font-size: 100px;}
-
-body{
-background-color: palevioletred;}
 
 .bottom{
 background-color: transparent;
 position: absolute;
-bottom: 0px;
-left: 20%;}
+bottom: 3%;
+right: 4%;
 }
 
+@media (max-width: 1430px) {
+h1, a{font-size: 40px;
+color: black;}
 
-@media (max-width: 880px) {
-h1{font-size: 110px;
-  color: darksalmon;
+h2{font-size: 120px;
+text-decoration-style: none
+margin: 0px;
+color: white;
 }
-
-h2, a{
-font-size: 70px;
-margin-left: 10px;
-color: darksalmon;
- }
 
 body{
-background-color: darksalmon;}
+margin: 0px;
+background-color: white;}
+
+.think{
+position: absolute;
+left: -13px;
+top: 46%;
+}
+
+.thinkie{
+position: absolute;
+left: 233px;
+top: 46%;
+}
 
 .bottom{
-background-color: color;
+background-color: transparent;
 position: absolute;
-bottom: 0px;
-left: 20%;}
+bottom: 3%;
+right: 4%;
+}
 
-.flo, .flor, .flore, .flores{
+.contain{
 position: absolute;
-width: 200px;
-height: 200px;
-background: transparent;
--webkit-transition: width 2s, height 2s, -webkit-transform 2s; /* Safari */
-transition: width 2s, height 2s, transform 2s;
+height: 100vh;
+}
 }
 
+@media (max-width: 1046px) {
+h1, a{font-size: 30px;
+color: black;}
 
-.flo{
-left: 0%;
-top: 43%;
+h2{font-size: 110px;
+text-decoration-style: none
+margin: 0px;
+color: white;
 }
 
-.flor{
-left:20%;
-top: 50%;
+body{
+margin: 0px;
+background-color: white;}
+
+.think{
+position: absolute;
+left: -13px;
+top: 46%;
+}
+.dos{
+position: absolute;
+top: 10%;
+
+left: 50%;
 }
 
-.flore{
-left:40%;
-top: 50%;
+.thinkie{
+position: absolute;
+left: 233px;
+top: 46%;
+}
 }
 
-.flores{
-right: 0%;
-top: 48%;
+@media (max-width: 910px) {
+h1, a{font-size: 30px;
+color: white;}
+
+h2{font-size: 70px;
+text-decoration-style: none
+margin: 0px;
+color: black;
 }
 
-.flo:hover, .flor:hover, .flore:hover, .flores:hover{
-width: 200px;
-height: 200px;
--webkit-transform: rotate(180deg); /* Safari */
-transform: rotate(180deg);}
+body{
+margin: 0px;
+background-color: black;}
 
+.dos{
+position: absolute;
+top: 10%;
+left: 50%;
+background-color: ghostwhite;
 }
-
-
-
-@media (max-width: 525px) {
-h1{font-size: 90px;
-color: #F1F539;}
-
-h2, a{
-  font-size: 38px;
-
-color: #F1F539;
-}
-
-body{background-color: #F1F539;}
 
 .bottom{
-background-color: white;
+background-color: transparent;
 position: absolute;
-bottom: 0px;
-left: 25%;
+bottom: 3%;
+right: 3%;
 }
 
-.flo, .flor, .flore, .flores{
+}
+
+@media (max-width: 610px) {
+h1, a{font-size: 40px;
+color: white;}
+
+h2{font-size: 40px;
+text-decoration-style: none
+margin: 0px;
+color: black;
+text-align: center;
+}
+
+body{
+margin: 0px;
+background-color: black;}
+
+.bottom{
+background-color: transparent;
 position: absolute;
-width: 150px;
-height: 150px;
-background: transparent;
--webkit-transition: width 2s, height 2s, -webkit-transform 2s; /* Safari */
-transition: width 2s, height 2s, transform 2s;
-}
-
-
-.flo{
-left: 0%;
-top: 43%;
-}
-
-.flor{
-left:20%;
-top: 50%;
-}
-
-.flore{
-left:40%;
-top: 47%;
-}
-
-.flores{
-right: 0%;
-top: 44%;
-}
-
-.flo:hover, .flor:hover, .flore:hover, .flores:hover{
-width: 150px;
-height: 150px;
--webkit-transform: rotate(180deg); /* Safari */
-transform: rotate(180deg);
+bottom: 3%;
+right: 4%;
 }
 
 }
-

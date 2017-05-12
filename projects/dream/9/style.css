@@ -1,0 +1,293 @@
+body{
+margin: 0px;
+padding: 0px;
+background-color: ghostwhite;
+}
+
+.dos{
+position: absolute;
+top: 10%;
+right: 3%;
+left: 40%;
+background-color: #b50d0d;
+}
+
+.contain{
+position: absolute;
+height: 100vh;
+margin: auto;
+}
+
+.bull{
+position: absolute;
+height: 98vh;
+bottom: 0%;
+left: -40px;
+}
+
+h1, a{
+margin: 0px;
+margin-left: 0px;
+padding-top: 0px;
+font-size: 60px;
+font-family: 'Montserrat', sans-serif;
+text-align: center;
+color: #b50d0d;
+font-weight: normal;
+}
+
+h2{
+margin: 0px;
+margin-left: 20px;
+padding-top: 0px;
+font-size: 140px;
+font-family: 'Montserrat', sans-serif;
+text-align: left;
+color: white;
+display: inline-block;
+font-weight: normal;
+}
+
+a:link{
+text-decoration:none; }
+
+a{
+display: inline-block;
+text-decoration-style: none;
+color: #b50d0d;
+text-decoration-line: none;
+font-family: 'Montserrat', sans-serif;
+}
+
+.bottom{
+background-color: transparent;
+position: absolute;
+bottom: 3%;
+right: 4%;
+}
+
+@media (max-width: 1430px) {
+h1, a{font-size: 40px;
+}
+
+h2{font-size: 120px;
+}
+
+body{
+margin: 0px;
+background-color: white;}
+
+.bottom{
+background-color: transparent;
+position: absolute;
+bottom: 3%;
+right: 4%;
+}
+.dos{
+position: absolute;
+top: 10%;
+right: 3%;
+left: 50%;
+background-color: #b50d0d;
+}
+
+.contain{
+position: absolute;
+height: 100vh;
+margin: auto;
+}
+
+.bull{
+position: absolute;
+height: 95vh;
+bottom: 0%;
+left: -40px;
+}
+}
+
+
+
+@media (max-width: 1980px) {
+  h1, a{font-size: 40px;}
+
+  h2{font-size: 110px;
+  }
+
+  body{
+  margin: 0px;
+  background-color: white;}
+
+  .bottom{
+  background-color: transparent;
+  position: absolute;
+  bottom: 3%;
+  right: 4%;
+  }
+  .dos{
+  position: absolute;
+  top: 10%;
+  right: 3%;
+  left: 55%;
+  background-color: #b50d0d;
+  }
+
+  .contain{
+  position: absolute;
+  height: 100vh;
+  margin: auto;
+  }
+
+  .bull{
+  position: absolute;
+  height: 95vh;
+  bottom: 0%;
+  left: -40px;
+  }
+  }
+
+@media (max-width: 970px) {
+    h1, a{font-size: 40px;}
+
+    h2{font-size: 90px;
+    }
+
+    body{
+    margin: 0px;
+    background-color: white;}
+
+    .bottom{
+    background-color: transparent;
+    position: absolute;
+    bottom: 3%;
+    right: 4%;
+    }
+    .dos{
+    position: absolute;
+    top: 10%;
+    right: 3%;
+    left: 55%;
+    background-color: #b50d0d;
+    }
+
+    .contain{
+    position: absolute;
+    height: 100vh;
+    margin: auto;
+    }
+
+    .bull{
+    position: absolute;
+    height: 80vh;
+    bottom: 5%;
+    left: -40px;
+    }
+    }
+
+@media (max-width: 810px) {
+h1, a{font-size: 30px;}
+
+h2{font-size: 65px;
+}
+
+.dos{
+position: absolute;
+top: 30%;
+right: 3%;
+left: 65%;
+background-color: #b50d0d;
+}
+
+.contain{
+position: absolute;
+height: 100vh;
+margin: auto;
+}
+
+.bull{
+position: absolute;
+height: 80vh;
+bottom: 5%;
+left: -40px;
+}
+
+.bottom{
+background-color: transparent;
+position: absolute;
+bottom: 20%;
+right: 4%;
+}
+
+}
+
+
+@media (max-width: 785px) {
+h1, a{font-size: 28px;}
+
+h2{font-size: 55px;
+}
+
+.dos{
+position: absolute;
+top: 30%;
+right: 3%;
+left: 65%;
+background-color: #b50d0d;
+}
+
+.contain{
+position: absolute;
+height: 100vh;
+margin: auto;
+}
+
+.bull{
+position: absolute;
+height: 65vh;
+bottom: 10%;
+left: -40px;
+}
+
+.bottom{
+background-color: transparent;
+position: absolute;
+bottom: 20%;
+right: 4%;
+}
+
+}
+
+@media (max-width: 630px) {
+h1, a{font-size: 28px;}
+
+h2{font-size: 55px;
+}
+
+.dos{
+position: absolute;
+top: 30%;
+right: 3%;
+left: 55%;
+background-color: #b50d0d;
+}
+
+.contain{
+position: absolute;
+height: 100vh;
+margin: auto;
+}
+
+.bull{
+position: absolute;
+height: 55vh;
+bottom: 10%;
+left: -40px;
+}
+
+.bottom{
+background-color: transparent;
+position: absolute;
+bottom: 20%;
+right: 4%;
+}
+
+}

@@ -1,228 +1,255 @@
-body{
-margin: 0px;
-padding: 0px;
-background-color: ghostwhite;
-}
 
 .dos{
-  position: absolute;
-  top: 10%;
-  right: 3%;
-  left: 40%;
-  background-color: black;
+background-color: white;
+margin: 0px;
+padding: 0px;
+height: 300px;
 }
 
-.contain{
+.flo, .flor, .flore, .flores{
 position: absolute;
-height: 100vh;
-margin: auto;
-}
-
-.manos{
-  height: 100vh;
-}
-
-.trump{
-position: absolute;
- height: 90%;
-bottom: 0%;
-left: 40px;
+width: 400px;
+height: 400px;
 background: transparent;
 transition: width 2s, height 2s, transform 2s;
 }
 
-.thinkie, .think{
-position: absolute;
- height: 40%;
-background: transparent;
-transition: width 2s, height 2s, transform 2s;
+.flo{
+left: 0%;
+top: 33%;
+transform: rotate(10deg);
 }
 
-.think{
-  position: absolute;
-  left: -13px;
-  top: 46%;
+.flor{
+left:24%;
+top: 15%;
 }
 
-.thinkie{
-   position: absolute;
-   left: 233px;
-   top: 46%;
- }
-
-.think:hover, .thinkie:hover{
--webkit-transform: rotate(35deg); /* Safari */
-transform: rotate(35deg);
+.flore{
+left:45%;
+top: 20%;
+transform: rotate(80deg);
 }
 
-.think, .thinkie{
+.flores{
+right: 0%;
+  top: 17%;
+  transform: rotate(80deg);
+}
+
+.flo:hover, .flor:hover, .flore:hover, .flores:hover{
+width: 400px;
+height: 400px;
+-webkit-transform: rotate(180deg); /* Safari */
+transform: rotate(180deg);
+}
+
+.flo, .flore{
 transition: 1s;
 transition-timing-function: ease-in;
 }
 
-h1, a{
-    margin: 0px;
-  margin-left: 0px;
-  padding-top: 0px;
-  font-size: 60px;
-  font-family: 'Arvo', serif;
+.bottom{
+background-color: white;
+position: absolute;
+bottom: 0px;
+left: 31%;
+}
+
+.tres{
+background-color: mediumturquoise;
+left: 50%;
+top: 50%;
+}
+
+.izq{
+position: absolute;
+left: 3px;
+bottom: 3px;
+}
+
+.der{
+position: absolute;
+right: 3px;
+bottom: 3px;
+}
+
+h1{
+margin: 3px;
+font-size: 120px;
+font-family: 'Francois One', sans-serif;
 text-align: center;
-color: black;
+color: deeppink;
+display: inline-block;
 font-weight: normal;
 }
 
 h2{
-  margin: 0px;
-margin-left: 20px;
-padding-top: 0px;
-font-size: 140px;
-font-family: 'Arvo', serif;
-text-align: left;
-color: white;
+margin: 3px;
+font-size: 100px;
+font-family: 'Francois One', sans-serif;
+text-align: center;
+color: deeppink;
 display: inline-block;
 font-weight: normal;
 }
 
 a:link{
- text-decoration:none; }
+text-decoration:none; }
 
- a{
- display: inline-block;
- text-decoration-style: none;
- color: black;
- text-decoration-line: none;
- font-family: 'Arvo', serif;
- }
-
-  .bottom{
-  background-color: transparent;
-  position: absolute;
-  bottom: 3%;
- right: 4%;
-  }
-
- @media (max-width: 1430px) {
- h1, a{font-size: 40px;
- color: black;}
-
- h2{font-size: 120px;
- text-decoration-style: none
- margin: 0px;
- color: white;
- }
-
- body{
-   margin: 0px;
- background-color: white;}
-
- .think{
-   position: absolute;
-   left: -13px;
-   top: 46%;
- }
-
- .thinkie{
-    position: absolute;
-   left: 233px;
-    top: 46%;
-  }
-
- .bottom{
- background-color: transparent;
- position: absolute;
-  bottom: 3%;
- right: 4%;
- }
-
- .contain{
- position: absolute;
- height: 100vh;
- }
- }
-
- @media (max-width: 1046px) {
-  h1, a{font-size: 30px;
-  color: black;}
-
-  h2{font-size: 110px;
-  text-decoration-style: none
-  margin: 0px;
-  color: white;
-  }
-
- body{
-   margin: 0px;
- background-color: white;}
-
- .think{
-   position: absolute;
-   left: -13px;
-   top: 46%;
- }
- .dos{
-   position: absolute;
-   top: 10%;
-
-   left: 50%;
- }
-
- .thinkie{
-    position: absolute;
-    left: 233px;
-    top: 46%;
-  }
-}
-
-@media (max-width: 910px) {
-h1, a{font-size: 30px;
-color: white;}
-
-h2{font-size: 70px;
-text-decoration-style: none
-margin: 0px;
-color: black;
+a{
+display: inline-block;
+font-weight: normal;
+text-decoration-style: none;
+color: deeppink;
+text-decoration-line: none;
 }
 
 body{
-  margin: 0px;
-background-color: black;}
-
-.dos{
-  position: absolute;
-  top: 10%;
-  left: 50%;
-  background-color: ghostwhite;
+margin: 0px;
+padding: 0px;
+background-color: deeppink;
 }
+
+-----------------------------------------
+-----------------------------------------
+
+
+@media (max-width: 1260px) {
+h1{
+font-size: 110px;
+}
+
+h2{
+margin: 3px;
+font-size: 100px;}
+
+body{
+background-color: palevioletred;}
 
 .bottom{
 background-color: transparent;
 position: absolute;
- bottom: 3%;
-right: 3%;
+bottom: 0px;
+left: 20%;}
 }
 
+
+@media (max-width: 880px) {
+h1{font-size: 110px;
+  color: darksalmon;
 }
 
-@media (max-width: 610px) {
-h1, a{font-size: 40px;
-color: white;}
-
-h2{font-size: 40px;
-text-decoration-style: none
-margin: 0px;
-color: black;
-text-align: center;
-}
+h2, a{
+font-size: 70px;
+margin-left: 10px;
+color: darksalmon;
+ }
 
 body{
-  margin: 0px;
-background-color: black;}
+background-color: darksalmon;}
 
 .bottom{
-background-color: transparent;
+background-color: color;
 position: absolute;
- bottom: 3%;
-right: 4%;
+bottom: 0px;
+left: 20%;}
+
+.flo, .flor, .flore, .flores{
+position: absolute;
+width: 200px;
+height: 200px;
+background: transparent;
+-webkit-transition: width 2s, height 2s, -webkit-transform 2s; /* Safari */
+transition: width 2s, height 2s, transform 2s;
+}
+
+
+.flo{
+left: 0%;
+top: 43%;
+}
+
+.flor{
+left:20%;
+top: 50%;
+}
+
+.flore{
+left:40%;
+top: 50%;
+}
+
+.flores{
+right: 0%;
+top: 48%;
+}
+
+.flo:hover, .flor:hover, .flore:hover, .flores:hover{
+width: 200px;
+height: 200px;
+-webkit-transform: rotate(180deg); /* Safari */
+transform: rotate(180deg);}
+
+}
+
+
+
+@media (max-width: 525px) {
+h1{font-size: 90px;
+color: #F1F539;}
+
+h2, a{
+  font-size: 38px;
+
+color: #F1F539;
+}
+
+body{background-color: #F1F539;}
+
+.bottom{
+background-color: white;
+position: absolute;
+bottom: 0px;
+left: 25%;
+}
+
+.flo, .flor, .flore, .flores{
+position: absolute;
+width: 150px;
+height: 150px;
+background: transparent;
+-webkit-transition: width 2s, height 2s, -webkit-transform 2s; /* Safari */
+transition: width 2s, height 2s, transform 2s;
+}
+
+
+.flo{
+left: 0%;
+top: 43%;
+}
+
+.flor{
+left:20%;
+top: 50%;
+}
+
+.flore{
+left:40%;
+top: 47%;
+}
+
+.flores{
+right: 0%;
+top: 44%;
+}
+
+.flo:hover, .flor:hover, .flore:hover, .flores:hover{
+width: 150px;
+height: 150px;
+-webkit-transform: rotate(180deg); /* Safari */
+transform: rotate(180deg);
 }
 
 }
+
