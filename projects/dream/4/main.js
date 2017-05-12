@@ -61,7 +61,7 @@ myDiv.innerHTML += '<img src="../img/watermelon/w21.png" class="ajax-loader"/></
 myDiv.innerHTML += '<img src="../img/watermelon/w22.png" class="ajax-loader"/></div>'
 } else if (hours >= 22 && hours <=23){
 myDiv.innerHTML += '<img src="../img/watermelon/w23.png" class="ajax-loader"/></div>'
-} else if (hours >= 23 && hours <=24){
+} else if (hours >= 23 && hours <=0){
 myDiv.innerHTML += '<img src="../img/watermelon/w24.png" class="ajax-loader"/></div>'
 
 

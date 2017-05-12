@@ -30,14 +30,15 @@ background-repeat: no-repeat;
 
 .dos{
 position: absolute;
-background-color: white;
+background-color: ghostwhite;
+padding: 10px;
 left: 2%;
 top: 2%;
 right: 50%;
 }
 
 .bottom{
-background-color: white;
+background-color: ghostwhite;
 position: absolute;
 bottom: 2%;
 right: 2%;
@@ -49,9 +50,9 @@ h1, a{
 margin: 0px;
 padding: 10px;
 font-size: 50px;
-font-family: 'Pacifico', cursive;
+font-family: 'Roboto', sans-serif;
 text-align: center;
-color: white;
+color: #C20A43;
 font-weight: normal;
 }
 
@@ -59,8 +60,8 @@ h2{
 margin: 0px;
 line-height: 1;
 margin-bottom: 0px;
-font-size: 100px;
-font-family: 'Pacifico', cursive;
+font-size: 60px;
+font-family: 'Roboto', sans-serif;
 text-align: left;
 color: #C20A43;
 font-weight: normal;
@@ -73,8 +74,8 @@ a{
 display: inline-block;
 font-weight: normal;
 text-decoration-style: none;
-color: #a9fd9d;
-font-family: 'Pacifico', cursive;
+color: #C20A43;
+font-family: 'Roboto', sans-serif;
 text-decoration-line: none;
 }
 
@@ -84,7 +85,7 @@ h1{
 margin: 10px;
 padding-top: 0px;
 font-size: 100px;
-font-family: 'Pacifico', cursive;
+font-family: 'Roboto', sans-serif;
 text-align: center;
 color: white;
 line-height: 30px;
@@ -97,7 +98,7 @@ line-height: 1;
 margin-bottom: 0px;
 padding-bottom: 0px;
 font-size: 100px;
-font-family: 'Pacifico', cursive;
+font-family: 'Roboto', sans-serif;
 text-align: left;
 color: #C20A43;
 font-weight: normal;
@@ -106,10 +107,11 @@ font-weight: normal;
 
 .dos{
 position: absolute;
+padding: 10px;
 background-color: white;
 left: 2%;
 top: 2%;
-right: 58%;
+right: 50%;
 }
 
 @media (max-width: 1330px) {
@@ -117,19 +119,16 @@ h1{
 margin: 10px;
 padding: 0px;
 font-size: 90px;
-font-family: 'Pacifico', cursive;
+font-family: 'Roboto', sans-serif;
 text-align: left;
 color: white;
 font-weight: normal;
 }
 
 h2{
-margin: 0px;
 line-height: 1;
-margin-bottom: 0px;
-padding-bottom: 0px;
-font-size: 80px;
-font-family: 'Pacifico', cursive;
+font-size: 60px;
+font-family: 'Roboto', sans-serif;
 text-align: left;
 color: #C20A43;
 font-weight: normal;
@@ -148,7 +147,8 @@ position: absolute;
 background-color: white;
 left: 2%;
 top: 2%;
-right: 58%;
+right: 50%;
+padding: 10px;
 }
 
 }
@@ -159,8 +159,7 @@ font-size: 40px;
 }
 
 h2{
-margin: 0px;
-font-size: 60px;
+font-size: 50px;
 
 }
 
@@ -177,7 +176,8 @@ position: absolute;
 background-color: white;
 left: 2%;
 top: 2%;
-right: 58%;
+right: 50%;
+padding: 10px;
 }
 
 }
@@ -188,8 +188,7 @@ right: 58%;
   }
 
   h2{
-  margin: 0px;
-  font-size: 60px;
+  font-size: 50px;
 
   }
 
@@ -207,6 +206,7 @@ right: 58%;
   left: 2%;
   top: 2%;
   right: 50%;
+  padding: 10px;
   }
 
 }
@@ -218,8 +218,7 @@ right: 58%;
   }
 
   h2{
-  margin: 0px;
-  font-size: 60px;
+  font-size: 40px;
 
   }
 
@@ -232,7 +231,7 @@ right: 58%;
   }
 
   .dos{
-    padding: 2px;
+ padding: 10px;
   position: absolute;
   background-color: white;
   left: 2%;
@@ -250,8 +249,7 @@ right: 58%;
   }
 
   h2{
-  margin: 0px;
-  font-size: 50px;
+  font-size: 40px;
   }
 
   .bottom{
@@ -263,12 +261,12 @@ right: 58%;
   }
 
   .dos{
-    padding: 2px;
+    padding: 10px;
   position: absolute;
   background-color: white;
   left: 2%;
   top: 2%;
-  right: 30%;
+  right: 28%;
   }
 
 }

@@ -6,7 +6,9 @@ background-color: ghostwhite;
 
 .dos{
   position: absolute;
-  top: 0px;
+  top: 20%;
+  right: 0%;
+  left:50%;
 }
 
 .contain{
@@ -16,9 +18,9 @@ height: 100vh;
 
 .think, .thinky{
 position: absolute;
- height: 100%;
+ height: 110%;
 bottom: 0%;
-left: 280px;
+left: -85px;
 }
 
 .think:hover{
@@ -47,10 +49,10 @@ transform: translate3d(4px, 0, 0);
 }
 
 .bottom{
-background-color: transparent;
+background-color: black;
 position: absolute;
-bottom: 0px;
-left: 28%;
+bottom: 15%;
+right: 8%;
 }
 
 .izq{
@@ -66,15 +68,15 @@ bottom: 3px;
   bottom: 3px;
 }
 
-h1{
-    margin: 0px;
-  margin-left: 0px;
-  padding-top: 0px;
-  font-size: 90px;
-  font-family: 'Barrio', cursive;
-text-align: center;
-color: black;
+h1, a{
+padding-left:10px;
+padding-right: 10px;
+margin:0px;
+  font-size: 60px;
+  font-family: 'Paytone One', sans-serif;
+color: white;
 font-weight: normal;
+text-align: center;
 }
 
 h2{
@@ -82,8 +84,9 @@ h2{
 margin-left: 20px;
 padding-top: 0px;
 font-size: 140px;
-font-family: 'Barrio', cursive;
-text-align: left;
+font-family: 'Paytone One', sans-serif;
+line-height: 130px;
+text-align: center;
 color: black;
 display: inline-block;
 font-weight: normal;
@@ -95,39 +98,121 @@ a:link{
  a{
  display: inline-block;
  text-decoration-style: none;
- color: black;
  text-decoration-line: none;
  }
 
 
-@media (max-width: 910px) {
+@media (max-width: 1375px) {
 h1, a{font-size: 40px;
-color: white;}
-
-h2{font-size: 70px;
-text-decoration-style: none
-margin: 0px;
-color: white;
 }
 
-body{
-  margin: 0px;
-background-color: black;}
+h2{font-size: 120px;
+  line-height: 120px;
+}
 
 .bottom{
-background-color: transparent;
-position: absolute;
-bottom: 0px;
-left: 28%;
+bottom: 30%;
+right: 13%;
 }
 
-.contain{
-position: absolute;
-height: 100vh;
+.dos{
+  position: absolute;
+  top: 20%;
+  right: 0%;
+  left:50%;
 }
 
 .think, .thinky{
 position: absolute;
- height: 80vh;
- left: -10px;
+ height: 100%;
+bottom: 0%;
+left: -85px;
 }
+
+  @media (max-width: 1020px) {
+  h1, a{font-size: 40px;
+  }
+
+  h2{font-size: 80px;
+    line-height: 80px;
+  }
+
+  .bottom{
+  bottom: 3%;
+  right: 1%;
+  }
+
+  .think, .thinky{
+  position: absolute;
+   height: 80vh;
+   left: -50px;
+  }
+
+  .dos {
+      position: absolute;
+      top: 7%;
+      left: 10%;
+      right: 10%;}
+    }
+
+    @media (max-width: 560px) {
+    h1, a{font-size: 40px;
+    }
+
+    h2{font-size: 80px;
+      line-height: 80px;
+    }
+
+    .bottom{
+    bottom: 3%;
+    right: 1%;
+    }
+
+    .think, .thinky{
+    position: absolute;
+     height: 70vh;
+     left: -50px;
+    }
+
+    .dos {
+        position: absolute;
+        top: 7%;
+        left: 10%;
+        right: 10%;}
+      }
+
+
+      @media (max-width: 540px) {
+      h1, a{font-size: 30px;
+      }
+
+      h2{font-size: 80px;
+        line-height: 80px;
+      }
+
+
+      .think, .thinky{
+      position: absolute;
+       height: 68vh;
+       left: -65px;
+      }
+
+        }
+
+
+        @media (max-width: 500px) {
+        h1, a{font-size: 30px;
+        }
+
+        h2{font-size: 80px;
+          line-height: 80px;
+        }
+
+
+        .think, .thinky{
+        position: absolute;
+         height: 65vh;
+         left: -65px;
+        }
+
+          }

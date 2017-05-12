@@ -5,141 +5,224 @@ background-color: ghostwhite;
 }
 
 .dos{
-position: absolute;
-top: 5%;
-right: 30%;
-left: 30%;
-background-color: #782750;
+  position: absolute;
+  top: 10%;
+  right: 3%;
+  left: 40%;
+  background-color: black;
 }
 
-.flowers, .nina{
-width: 100vw:
-margin: 0px;
+.contain{
+position: absolute;
+height: 100vh;
+margin: auto;
 }
 
-.ninas{
+.manos{
+  height: 100vh;
+}
+
+.trump{
 position: absolute;
+ height: 90%;
 bottom: 0%;
-left: 40%;
-right: 25%;
-height: 70vh;
+left: 40px;
+background: transparent;
 transition: width 2s, height 2s, transform 2s;
 }
 
-.f, .fl, .flo, .flor, .flore, .flores{
+.thinkie, .think{
 position: absolute;
-top: 30%;
-height: 60vh;
-transition: width 2s, height 2s, transform 2s;}
-
-.f{
-  left: 14%;
-}
-.fl{
-  right: 14%;
-}
-.flo{
-left: 2%;
-}
-.flor{
-left: 27%;
-}
-.flore{
-right: 27%;
-}
-.flores{
-right: 2%;
+ height: 40%;
+background: transparent;
+transition: width 2s, height 2s, transform 2s;
 }
 
+.think{
+  position: absolute;
+  left: -13px;
+  top: 46%;
+}
 
+.thinkie{
+   position: absolute;
+   left: 233px;
+   top: 46%;
+ }
 
-.f:hover, .fl:hover, .flo:hover, .flor:hover, .flore:hover, .flores:hover{
-  transform: perspective( 600px ) rotateY( 50deg );
-transition: width 1s, height 1s, transform 1s;}
+.think:hover, .thinkie:hover{
+-webkit-transform: rotate(35deg); /* Safari */
+transform: rotate(35deg);
+}
 
-h1{
-margin: 0px;
-margin-left: 0px;
-padding-top: 0px;
-font-size: 60px;
-font-family: 'Montserrat', sans-serif;
+.think, .thinkie{
+transition: 1s;
+transition-timing-function: ease-in;
+}
+
+h1, a{
+    margin: 0px;
+  margin-left: 0px;
+  padding-top: 0px;
+  font-size: 60px;
+  font-family: 'Arvo', serif;
 text-align: center;
-color: white;
+color: black;
 font-weight: normal;
 }
 
-h2, a{
-margin: 0px;
+h2{
+  margin: 0px;
 margin-left: 20px;
 padding-top: 0px;
-font-size: 40px;
-font-family: 'Montserrat', sans-serif;
+font-size: 140px;
+font-family: 'Arvo', serif;
 text-align: left;
-color: #782750;
+color: white;
 display: inline-block;
 font-weight: normal;
 }
 
 a:link{
-text-decoration:none; }
+ text-decoration:none; }
 
-a{
-display: inline-block;
-text-decoration-style: none;
-text-decoration-line: none;
-font-size: 40px;
-font-family: 'Montserrat', sans-serif;
+ a{
+ display: inline-block;
+ text-decoration-style: none;
+ color: black;
+ text-decoration-line: none;
+ font-family: 'Arvo', serif;
+ }
+
+  .bottom{
+  background-color: transparent;
+  position: absolute;
+  bottom: 3%;
+ right: 4%;
+  }
+
+ @media (max-width: 1430px) {
+ h1, a{font-size: 40px;
+ color: black;}
+
+ h2{font-size: 120px;
+ text-decoration-style: none
+ margin: 0px;
+ color: white;
+ }
+
+ body{
+   margin: 0px;
+ background-color: white;}
+
+ .think{
+   position: absolute;
+   left: -13px;
+   top: 46%;
+ }
+
+ .thinkie{
+    position: absolute;
+   left: 233px;
+    top: 46%;
+  }
+
+ .bottom{
+ background-color: transparent;
+ position: absolute;
+  bottom: 3%;
+ right: 4%;
+ }
+
+ .contain{
+ position: absolute;
+ height: 100vh;
+ }
+ }
+
+ @media (max-width: 1046px) {
+  h1, a{font-size: 30px;
+  color: black;}
+
+  h2{font-size: 110px;
+  text-decoration-style: none
+  margin: 0px;
+  color: white;
+  }
+
+ body{
+   margin: 0px;
+ background-color: white;}
+
+ .think{
+   position: absolute;
+   left: -13px;
+   top: 46%;
+ }
+ .dos{
+   position: absolute;
+   top: 10%;
+
+   left: 50%;
+ }
+
+ .thinkie{
+    position: absolute;
+    left: 233px;
+    top: 46%;
+  }
+}
+
+@media (max-width: 910px) {
+h1, a{font-size: 30px;
+color: white;}
+
+h2{font-size: 70px;
+text-decoration-style: none
+margin: 0px;
+color: black;
+}
+
+body{
+  margin: 0px;
+background-color: black;}
+
+.dos{
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  background-color: ghostwhite;
 }
 
 .bottom{
 background-color: transparent;
 position: absolute;
-bottom: 1%;
-right: 2%;
+ bottom: 3%;
+right: 3%;
 }
 
-@media (max-width: 1430px) {
-body{
-background-color: white;
-}
-}
-
-@media (max-width: 1046px) {
-}
-
-@media (max-width: 910px) {
 }
 
 @media (max-width: 610px) {
-body{
-background-color: white;
+h1, a{font-size: 40px;
+color: white;}
+
+h2{font-size: 40px;
+text-decoration-style: none
+margin: 0px;
+color: black;
+text-align: center;
 }
 
-h1{
-  font-size: 40px;
-}
+body{
+  margin: 0px;
+background-color: black;}
 
 .bottom{
-bottom: 2%;
-right: 1%;
-}
-
-h2, a{
-font-size: 20px;
-}
-
-.ninas{
+background-color: transparent;
 position: absolute;
-bottom: 0%;
-left: 25%;
-right: 25%;
-height: 50vh;
+ bottom: 3%;
+right: 4%;
 }
 
-.f{
-  display: none;
-}
-.fl{
-  display: none;
-}
 }
